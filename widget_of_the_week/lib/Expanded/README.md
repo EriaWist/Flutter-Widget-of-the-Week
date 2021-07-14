@@ -62,3 +62,19 @@ Row(
       ],
     );
 ```
+### 未使用 Expanded 當空白用於隔開
+<img width="476" alt="截圖 2021-07-14 上午4 34 46" src="https://user-images.githubusercontent.com/49594697/125558222-05d2ee82-c5cf-42c2-9656-3c207e3f02c6.png">
+
+### 使用 Expanded 當空白用於隔開
+<img width="476" alt="截圖 2021-07-14 上午10 21 58" src="https://user-images.githubusercontent.com/49594697/125558235-dd223936-c3f9-4176-8a1a-a2a04e3965b7.png">
+
+### 使用 Expanded 當空白並且使用不同比例隔開
+<img width="476" alt="截圖 2021-07-14 上午4 38 07" src="https://user-images.githubusercontent.com/49594697/125558378-f5682888-f95d-455a-8c6c-ca864d68291c.png">
+
+### 並且 Expanded 能夠放入元件將元件拉伸
+<img width="476" alt="截圖 2021-07-14 上午10 51 41" src="https://user-images.githubusercontent.com/49594697/125558453-85e30003-97dd-45ac-a3b7-191d2c1d6e75.png">
+
+### 最後是整體呈現
+<img width="476" alt="截圖 2021-07-14 上午10 58 19" src="https://user-images.githubusercontent.com/49594697/125558612-b9f51358-09a4-4d9d-b453-bd5663197913.png">
+
+
