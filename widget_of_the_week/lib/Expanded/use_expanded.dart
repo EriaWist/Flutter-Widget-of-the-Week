@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:wideget_of_the_week/container.dart';
 
 class use_expanded extends StatelessWidget {
   const use_expanded({Key? key}) : super(key: key);
@@ -13,28 +14,22 @@ class use_expanded extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(
+            myContainer(
               color: Colors.red,
-              height: 75,
-              width: 75,
             ),
             Expanded(
               child: Container(), //並且Expanded也能控制child比例
               flex: 1, //可以設定比例
             ),
-            Container(
+            myContainer(
               color: Colors.green,
-              height: 75,
-              width: 75,
             ),
             Expanded(
               child: Container(),
               flex: 2,
             ),
-            Container(
+            myContainer(
               color: Colors.blue,
-              height: 75,
-              width: 75,
             ),
           ],
         ),
